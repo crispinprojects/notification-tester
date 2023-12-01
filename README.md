@@ -1,6 +1,6 @@
 # Notification Tester
 
-Notification Tester is a small Linux GTK4 application for sending notications using either libnotify and GNotication.
+Notification Tester is a small Linux GTK4 application for sending notications using either libnotify and GNotification.
 
 ![](notification-tester.png)
 
@@ -44,7 +44,7 @@ sudo apt-get install libglib2.0-dev
 
 ### Testing
 
-Sending notification using libnotify works on both Debian GNOME (Wayland) and Debian Budgie(X11). The library libnotiy is an implementation of the [Desktop Notifications Specification](https://specifications.freedesktop.org/notification-spec/notification-spec-latest.html) which provides support for GTK and Qt applications and is ***desktop independent***. The library libnotify sends desktop notifications to a notification daemon (server). To use it you need to install the development files for the library i.e. the libnotify-dev package. 
+Sending notification using libnotify works on both Debian GNOME (Wayland) and Debian Budgie(X11). The library libnotify is an implementation of the [Desktop Notifications Specification](https://specifications.freedesktop.org/notification-spec/notification-spec-latest.html) which provides support for GTK and Qt applications and is ***desktop independent***. The library libnotify sends desktop notifications to a notification daemon (server). To use it you need to install the development files for the library i.e. the libnotify-dev package. 
 
 ```
 sudo apt install libnotify-dev
